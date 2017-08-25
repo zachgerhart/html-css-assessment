@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+       padding: 0;
+       background-image: url(./html-css-assessment/img/main-bg.jpeg);
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       width: 100vw;
+       height: 100vh;
+       display: flex;
+       flex-direction: column;
+}
+.topC {
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.first {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px
+
+}
+.your{
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 100px;
+
+
+
+}
+.portfolio{
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 40%;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  height: 40%;
+
+
+
+}
+.item {
+  height: 100px;
+  width: 100px;
+
+  border-radius: 50%;
+  margin-bottom: 10px;
+  background-image: url(http://www.pngmart.com/files/3/Down-Arrow-PNG-Pic.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
+
+
+
+}
+@media (max-width: 725px) {
+  .topC{
+    display: none;
+  }
+}
